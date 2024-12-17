@@ -1,0 +1,144 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+
+/* All Common CSS End */
+
+/* Header Part Start */
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navbar{
+    background: #160C6D;
+}
+.nav-link{
+    color:#EFF4FA;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 30px;
+    transition: .4s;
+}
+.nav-link:hover{
+    color: #1BBF00;
+}
+
+.myButton{
+    background: #1BBF00;
+    padding: 15px 20px;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 30px;
+}
+/* Header Part End */
+
+/* Banner  Part Start */
+#bannerPart{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 99;
+}
+.bannerOverly{
+    background: rgba(106, 98, 197, 0.867);
+    padding-top: 130px;
+    padding-bottom: 250px;
+}
+.bannerTextPart h1{
+    font-size: 84px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #FAFAFE;
+    line-height: 100px;
+    margin-bottom: 40px;
+}
+.bannerTextPart p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    color: #E6E5F3;
+    line-height: 40px;
+    padding: 0 167px;
+   
+}
+.bannerButton{
+    margin-top: 30px;
+    
+}
+.bannerButton a{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #F9F9F9;
+    border: 2px solid #1BBF00;
+    border-radius: 50px;
+    padding: 15px 30px;
+    margin: 0 15px;
+   
+
+}
+.bannerButton a:hover{
+    background: #1BBF00;
+   
+
+}
+/* Banner  Part End */
+
+/* Counter Part Start */
+#counterPart{
+    z-index: 1;
+}
+.img1{
+    margin-top: -100px;
+}
+/* Counter Part End */
+
+/* Header Part Start */
+/* Header Part End */
+
+/* Header Part Start */
+/* Header Part End */
+
+/* Header Part Start */
+/* Header Part End */
+
+/* Header Part Start */
+/* Header Part End */
+
+/* Header Part Start */
+/* Header Part End */
+
+/* Header Part Start */
+/* Header Part End */
+
+/* Header Part Start */
+/* Header Part End */
+
+/* Header Part Start */
+/* Header Part End */
+
+/* Header Part Start */
+/* Header Part End */
+
+
