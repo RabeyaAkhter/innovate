@@ -59,6 +59,7 @@ h1,h2,h3,h4,h5,h6,p{
     background-position: center;
     background-size: cover;
     z-index: 99;
+    position: relative;
 }
 .bannerOverly{
     background: rgba(106, 98, 197, 0.867);
@@ -107,18 +108,171 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* Counter Part Start */
 #counterPart{
-    z-index: 1;
+    padding-bottom: 125px;
+    /* padding-top: 120px; */
+    background: #F9F9FB;
+    
 }
 .img1{
-    margin-top: -100px;
+    margin-top: -180px;
+    position: absolute;
+    z-index: 1; 
+}
+.img2{
+    margin-top: -198px;
+    position: absolute;
+    z-index: 1;
+}
+.img3{
+    margin-top: -113px;
+    position: absolute;
+    z-index: 1;
+}
+.img4{
+    margin-top: -176px;
+    position: absolute;
+    z-index: 1;
+    margin-left: -77px;
+}
+.counterText{
+    padding-top: 400px;
+}
+.counterText h2{
+    font-size: 64px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    color: #1BBF00;
+   
+
+}
+.counterText h3{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #141135;
+    padding-top: 30px;
+
 }
 /* Counter Part End */
 
-/* Header Part Start */
-/* Header Part End */
+/* WhyUS Part Start */
+ #whyUsPart{
+    padding-top: 100px;
+    padding-bottom: 90px;
+    background: #FDFDFD;
+ }
 
-/* Header Part Start */
-/* Header Part End */
+ .whyUsLeft{
+    display: flex;
+    gap: 30px;
+   padding: 25px 15px;
+
+ }
+ .whyUsLeft:hover{
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+background: #ffff;
+border-radius: 10px;
+ }
+ .whyUsLeft p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #726E9E;
+    font-family: "Paprika", system-ui;
+ }
+ .whyUsRight h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #141135;
+
+ }
+ .whyUsRight p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    color: #726E9E;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-right: 127px;
+    padding-top: 45px;
+
+ }
+/* WhyUS Part End */
+
+/* WhatWeDo Part Start */
+#whatWeDoPart{
+    padding: 100px 0;
+    background: #F6F5FF;
+}
+.whatWeDo h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #141135;
+
+}
+.whatWeDo P{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #6C7D93;
+    line-height: 30px;
+    margin-bottom: 60px;
+    padding-right: 95px;
+    padding-top: 40px;
+
+}
+.weDoItem{
+-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+background: #ffff;
+border-radius: 20px;
+padding: 50px 35px;
+margin-bottom: 50px;
+transition: .4s;
+
+}
+.weDoItem:hover{
+    background: #6B62C5;
+    color:#ffff;
+}
+.weDoItem h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #141135;
+    padding-top: 35px;
+    /* padding-bottom: 20px; */
+
+
+}
+
+.weDoItem p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    color: #726E9E;
+    line-height: 30px;
+    padding: 20px 33px;
+    
+}
+
+
+.weDoButton{
+    background: rgba(25, 191, 0, 0.759);
+    padding: 13px 20px;
+    color: #141135;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 30px;
+}
+
+/* WhatWeDo Part End */
 
 /* Header Part Start */
 /* Header Part End */
